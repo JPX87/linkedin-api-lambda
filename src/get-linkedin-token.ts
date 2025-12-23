@@ -13,7 +13,7 @@ import { createServer } from 'http';
 
 const CLIENT_ID = process.env.LOCAL_LINKEDIN_CLIENT_ID!;
 const CLIENT_SECRET = process.env.LOCAL_LINKEDIN_CLIENT_SECRET!;
-const SCOPE = 'r_dma_portability_3rd_party';
+const SCOPE = 'r_dma_portability_self_serve';
 const REDIRECT_URI = 'http://localhost:3000/callback';
 
 const startOAuthFlow = async (): Promise<void> => {
